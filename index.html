@@ -6,53 +6,43 @@ title: Fablab Torino
     <div class="container">
 
     	<div class="row">
-    		<div class="col-sm-4">
-    			<h4>IMPARARE</h4>
-    			<p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    		<div class="col-sm-3">
+    			<h4>Chi siamo</h4>
+    			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     		</div>
-    		<div class="col-sm-4">
-    			<h4>SPERIMENTARE</h4>
-    			<p class="lead"> ILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    		<div class="col-sm-3">
+    			<h4>Progetti per le aziende</h4>
+    			<p> ILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     		</div>
-    		<div class="col-sm-4">
+    		<div class="col-sm-3">
+    			<h4>Diventare Coach</h4>
+    			<p> ILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    		</div>    		
+    		<div class="col-sm-3">
     			<h3>Newsletter</h3>
-				<!-- Begin MailChimp Signup Form -->
-				<link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
-				<div id="mc_embed_signup">
-						<form action="//fablabtorino.us5.list-manage.com/subscribe/post?u=bbd5781f8c72a1885774d98c0&amp;id=2ee26e2206" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-						    <div id="mc_embed_signup_scroll">
-						    <!--
-							<label for="mce-EMAIL">Iscriviti</label>
-							-->
-							<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email" required>
-						    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-						    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_bbd5781f8c72a1885774d98c0_2ee26e2206" tabindex="-1" value=""></div>
-						    <div class="clear"><input type="submit" value="Iscriviti" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-						    </div>
-						</form>
+				<form action="http://a0e1d.emailsp.net/frontend/subscribe.aspx">
+				<div >
+				<label for="1" >Email*</label>
+				<input type="email" name="email" id="email" placeholder="Inserisci la tua email" required="required">
+				<p >Controlla la tua casella di posta per confermare l'iscrizione</p>
 				</div>
+				<div>
+				<button type="submit" name="submit" value="true" >
+				Iscriviti
+				</button>
+				</div>
+				<input type="hidden" name="list" value="26">
+				</form>
+
     		</div>
     	</div>
     	<hr>
     	
 
 		<div class="row" align="center">
-			<h1 style="font-size: 50px;font-weight: 800;color: #d7d7d7">make things, not slides</h1>
+			<h1 style="font-size: 50px;font-weight: 800;color: #d7d7d7">Leader allenatori di leader</h1>
 		</div>
-		<div class="row">
-    		<div class="col-sm-4">
-    			<h3>Macchinari</h3>
-    			<p>Macchina a taglio laser, frese a controllo numerico, stampanti 3d, banco di elettronica.</p>
-    		</div>
-    		<div class="col-sm-4">
-    			<h3>Spazi</h3>
-    			<p>Aula workshop, banco di elettronica, scrivania di lavoro, spazio relax.</p>
-    		</div>
-    		<div class="col-sm-4">
-    			<h3>Condivisione</h3>
-    			<p>coprogettazione, Communites, eventi, workshop, serate</p>
-    		</div>    		
-		</div>	
+
 		<hr>
 		<div class="row">
 			{% for post in site.categories.evidenza%} 
@@ -69,18 +59,6 @@ title: Fablab Torino
 
 		<hr>
 
-		<div class="well">
-			<div class="row" align="center">
-				<div class="col-md-6 col-md-offset-3">
-					<h1>Iscriviti al Fablab</h1>
-					<h4 class="lead">Usa i macchinari, partecipa ai corsi gratuiti, frequenta liberamente il laboratorio ed entra a far parte della nostra community.</h4>
-					</p>
-					<a class="btn btn-primary" href="{{site.baseurl}}/iscriviti/" role="button">Iscriviti</a>
-				</div>
-			</div>
-		</div>	
-
-		
 
       	<div class="row">
         	<div class="col-sm-4">
